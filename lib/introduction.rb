@@ -39,6 +39,17 @@
 
 
 
+def introduction(wil)
+  puts "Hi, my name is #{wil}."
+end
+
+def introduction_with_language(wil, Ruby)
+   puts "Hi, my name is #{wil} and I am learning to program in #{Ruby}."
+end
+
+def introduction_with_language_optional(wil,"Ruby")
+  puts "Hi, my name is #{wil} and I am learning to program in #{Ruby}."
+end
 
 
 
@@ -64,15 +75,17 @@
 
 
 
+#def introduction(name)
+ # puts "Hi, my name is #{Wil}."
+#end
 
+#def introduction_with_language(name, language)
+ # puts "Hi, my name is #{Wil} and I am learning to program in #{Ruby}. "
+#end
 
-
-
-
-
-
-
-
+#def introduction_with_language_optional(name, language="Ruby")
+  #puts "Hi, my name is #{Wil} and I am learning to program in #{Ruby}."
+#end
 
 
 
